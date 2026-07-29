@@ -1,12 +1,12 @@
 %undefine _debugsource_packages
 
 Name:           cosmic-randr
-Version:        1.0.2
+Version:        1.2.0
 #define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Library and utility for displaying and configuring Wayland outputs
 License:        MPL-2.0
-Group:          Toold/COSMIC
+Group:          Desktop/COSMIC
 URL:            https://github.com/pop-os/cosmic-randr
 Source0:        https://github.com/pop-os/cosmic-randr/archive/epoch-%{version}%{?beta:-%{beta}}/%{name}-epoch-%{version}%{?beta:-%{beta}}.tar.gz
 Source1:        vendor.tar.xz
